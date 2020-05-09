@@ -7,7 +7,7 @@
     <title>MovieDay-App</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body class="font-sans bg-teal-700 text-white">
+<body class="font-sans bg-teal-900 text-white">
     <nav class="border-b border-gray-800">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col md:flex-row items-center">
