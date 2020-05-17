@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MovieDay-App</title>
     <link rel="stylesheet" href="/css/main.css">
+    <livewire:styles>
 </head>
 <body class="font-sans bg-teal-900 text-white">
     <nav class="border-b border-gray-800">
@@ -29,9 +30,7 @@
                 </li>
             </ul>
             <div class="flex flex-col md:flex-row items-center">
-                <div class="relative mt-3 md:mt-0">
-                    <input type="text" class="bg-white rounded-full text-black text-sm w-64 px-4 pl-8 py-1 focus:outline-none focus:shadow-outline" placeholder="Search">
-                </div>
+                <livewire:search-dropdown></livewire:search-dropdown>
                 <div class="md:ml-4 mt-3 md:mt-0">
                     <a href="#">
                         <img src="/img/image.jpg" alt="avatar" class="rounded-full w-8 h-8">
@@ -41,5 +40,6 @@
         </div>
     </nav>
     @yield('content')
+    <livewire:scripts>
 </body>
 </html>
